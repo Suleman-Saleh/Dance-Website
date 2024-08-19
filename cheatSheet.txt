@@ -1,0 +1,10 @@
+touch .gitignore
+git confiq --global user.name "Suleman-Saleh"
+git config --global user.email "msgul85@gmail.com"
+git init
+git add .
+git commit -m "Initial Commit"
+git status # Just to see
+git remote add origin https://github.com/Suleman-Saleh/Dance-Website.git
+git branch
+git push origin master
