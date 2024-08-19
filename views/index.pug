@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title Spencer Dance Academy
+    style
+      include ../static/style.css
+  body 
+    nav#navbar.top 
+         ul 
+            div#logo
+                img(src="/static/imgs/logo.png")
+                | SDA
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About]
+            li #[a(href = "/contact") Contact US] 
+            li #[a(href = "/") Services]
+            li #[a(href = "/") Call info]
+
+
+    section#introSection 
+        div Welcome to Spencer's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/imgs/img1.png")
+                div.card-content
+                    p This is the best dance academy in the universe    
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/imgs/img2.png")
+                div.card-content
+                    p This is the best dance academy in the universe    
+        div.card
+            h3 Expert teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/imgs/img3.png")
+                div.card-content
+                    p This is the best dance academy in the universe    
+
+    section#SponsorSection 
+        h2 Our Sponsors
+        div#Sponcer
+            img(src="/static/imgs/client1.png", alt="Sponsor Image ", class="spImageA")
+            img(src="/static/imgs/client2.png", alt="Sponsor Image ", class="spImage")
+            img(src="/static/imgs/client3.png", alt="Sponsor Image ", class="spImageM")
+
+    footer#footer 
+        | Copyright&copy 2024 SpencerDanceAcademy.com | All rights reserved
+    script
+      include ../static/index.js

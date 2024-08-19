@@ -1,0 +1,19 @@
+html
+  head
+    title Spencer Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar.top 
+         ul 
+            div#logo
+                img(src="/static/imgs/logo.png")
+                | SDA
+            li #[a(href = "/home") Home]
+            li #[a(href = "/") About]
+            li #[a(href = "/contact") Contact US] 
+            li #[a(href = "/") Services]
+            li #[a(href = "/") Call info]
+    block content
+    footer#footer 
+        | Copyright&copy 2024 SpencerDanceAcademy.com | All rights reserved
